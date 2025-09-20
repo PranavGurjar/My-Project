@@ -34,7 +34,11 @@ git switch second         //switch on branch
 git checkout -b third     //new branch and switch branch
 git switch -c fourth      //switch and create new branch
 git branch -D fourth      //for delete branch
-
+git add .
+git commit -m "first branch"
+git commit -m "second branch"
+git push -u origin first
+git push -u origin second
 
 
 
