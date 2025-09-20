@@ -1,0 +1,46 @@
+git init
+git status
+git add .
+git commit -m "message"
+git push -u origin main
+git branch -M main
+git remote add origin 
+git restore --staged .
+git restore --staged app.html
+git restore .   
+git restore app2.js
+git log
+git log --oneline
+git revert 0809b94
+git status
+git push
+git push origin main --force
+git reset --mixed HEAD~1
+git reset --soft HEAD~1
+ls -a
+cd desktop
+cd ..
+cd ../..
+nano .gitconfig
+git config alias.b branch
+git b
+cd .git
+nano config
+git branch
+git branch first          //create new branch
+git checkout first        //switch on branch
+git branch second
+git switch second         //switch on branch
+git checkout -b third     //new branch and switch branch
+git switch -c fourth      //switch and create new branch
+git branch -D fourth      //for delete branch
+
+
+
+
+
+
+
+
+
+     
